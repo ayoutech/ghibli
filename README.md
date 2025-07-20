@@ -1,16 +1,26 @@
-# ghibli
+# 🎬 Ghibli Movie App — Projet Flutter
 
-A new Flutter project.
+Application Flutter permettant d'afficher les détails des films du studio Ghibli.  
+Projet réalisé pour l’évaluation mobile.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✅ Fonctionnalités
+- Affichage des détails du film (titre, réalisateur, durée, description, etc.)
+- Affichage de la note sous forme d'étoiles ⭐
+- Responsive — testé et validé sur **Flutter Web**
+- Hot Reload compatible
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## ✅ Testé sur
+- ✅ Chrome (Flutter Web)
+- ✅ Émulateur Android (si ressources disponibles)
+- ❗ iOS non pris en charge sous Windows
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## ✅ Lancer le projet
+```bash
+flutter pub get
+flutter run -d chrome
