@@ -1,60 +1,16 @@
-# Ghibli Flutter App
+# ghibli
 
-Une application Flutter qui permet de parcourir et d'explorer les films du Studio Ghibli.
+A new Flutter project.
 
-## ✨ Fonctionnalités
+## Getting Started
 
-- Affichage de la liste des films du Studio Ghibli (données issues de l'API publique).
-- Navigation vers une page de détails pour chaque film.
-- Page de détails responsive :
-  - Colonne gauche : image du film
-  - Colonne droite :
-    - Titre
-    - Titre original
-    - Titre romanisé
-    - Description
-    - Réalisateur
-    - Producteur
-    - Année de sortie
-    - Durée
-    - Note (étoiles, basée sur le score Rotten Tomatoes)
-- Affichage de la note du film sous forme d'étoiles (package `flutter_rating_stars`).
-- UI moderne, responsive, et claire.
+This project is a starting point for a Flutter application.
 
-## 🚀 Installation
+A few resources to get you started if this is your first Flutter project:
 
-1. **Cloner le repo**
-   ```bash
-   git clone <url-du-repo>
-   cd ghibli
-   ```
-2. **Installer les dépendances**
-   ```bash
-   flutter pub get
-   ```
-3. **Lancer l'application**
-   ```bash
-   flutter run
-   ```
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-## 📦 Dépendances principales
-- [go_router](https://pub.dev/packages/go_router) : gestion de la navigation
-- [http](https://pub.dev/packages/http) : requêtes API
-- [flutter_rating_stars](https://pub.dev/packages/flutter_rating_stars) : affichage des notes en étoiles
-
-## 🗂️ Structure du projet
-```
-lib/
-  models/         # Modèles de données (Movie)
-  screens/        # Écrans principaux (Home, Movie)
-  services/       # Services (API, routing)
-  theme/          # Thème et styles
-  widgets/        # Widgets réutilisables
-```
-
-## 🌐 API utilisée
-- [Ghibli API](https://ghibliapi.vercel.app/)
-
-## 👤 Auteur
-- Projet réalisé dans le cadre d'un exercice Flutter (Digital School Paris)
-
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
